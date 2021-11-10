@@ -1,6 +1,7 @@
 <template>
   <div>
     <h1 v-rainbow>{{ renderOwais() }}</h1>
+    <h1 v-rainbow:color="'red'">{{ renderOwais() }}</h1>
   </div>
 </template>
 
