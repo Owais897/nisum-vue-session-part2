@@ -1,11 +1,19 @@
 <template>
   <div>
-    <h1>hello owais</h1>
+    <h1>{{ renderOwais() }}</h1>
   </div>
 </template>
 
 <script>
-export default {};
+import Mixins from "../mixins";
+export default {
+  methods: {
+    renderOwais() {
+      return "hello owais";
+    },
+  },
+  mixins: [Mixins],
+};
 </script>
 
 <style></style>
