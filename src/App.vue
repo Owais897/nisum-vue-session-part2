@@ -5,6 +5,7 @@
       <router-link to="/about">About</router-link> |
       <a href="/about">change by href</a> |
       <button @click="changeRoute">goto owais</button>
+      <router-link to="/dc">dynamic componet</router-link> |
     </div>
     <router-view />
   </div>

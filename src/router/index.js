@@ -34,6 +34,15 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "owais" */ "../views/Owais.vue"),
   },
+  {
+    path: "/dc",
+    name: "dc",
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () =>
+      import(/* webpackChunkName: "owais" */ "../views/DynammicComponent.vue"),
+  },
 ];
 
 const router = new VueRouter({
