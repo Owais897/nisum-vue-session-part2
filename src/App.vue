@@ -3,6 +3,7 @@
     <div id="nav">
       navbar---->>> <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
+      <a href="/about">change by href</a> |
       <button @click="changeRoute">goto owais</button>
     </div>
     <router-view />
