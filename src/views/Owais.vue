@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>{{ renderOwais() }}</h1>
+    <h1 v-rainbow>{{ renderOwais() }}</h1>
   </div>
 </template>
 
